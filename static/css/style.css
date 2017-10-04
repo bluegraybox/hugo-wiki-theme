@@ -681,4 +681,18 @@ code {
         font-size: 66%;
         color: #000;
     }
+    #social, #sharing, #footer, #post-meta {
+        display: none;
+    }
+    /* in case I change my mind about removing these completely
+    #footer {
+        padding: 0;
+    }
+    #post-meta {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    */
 }
