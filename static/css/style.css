@@ -379,8 +379,8 @@ Post List
 
 #post-list li,#archive-list li {
 	border-top: 1px solid #eee;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	list-style-type: none;
 	margin-bottom: 0;
 }
