@@ -661,3 +661,24 @@ code {
 	padding: 4px; 
 	font-weight: 600;
 }
+
+
+/* Override for printing */
+
+@media print {
+    #wrapper {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px 40px;
+    }
+    nav.main-nav {
+        display: none;
+    }
+    .post {
+        margin: 0px;
+    }
+    body {
+        font-size: 66%;
+        color: #000;
+    }
+}
