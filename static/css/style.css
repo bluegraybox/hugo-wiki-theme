@@ -662,3 +662,38 @@ code {
 	padding: 4px; 
 	font-weight: 600;
 }
+
+
+/* Override for printing */
+
+@media print {
+    #wrapper {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px 40px;
+    }
+    nav.main-nav {
+        display: none;
+    }
+    .post {
+        margin: 0px;
+    }
+    body {
+        font-size: 66%;
+        color: #000;
+    }
+    #social, #sharing, #footer, #post-meta {
+        display: none;
+    }
+    /* in case I change my mind about removing these completely
+    #footer {
+        padding: 0;
+    }
+    #post-meta {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    */
+}
