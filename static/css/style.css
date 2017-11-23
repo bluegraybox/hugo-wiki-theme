@@ -688,6 +688,9 @@ code {
         font-size: 66%;
         color: #000;
     }
+    .date-name-toggle {
+        display: none;
+    }
     #social, #sharing, #footer, #post-meta {
         display: none;
     }
