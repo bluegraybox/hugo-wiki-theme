@@ -1,7 +1,7 @@
 <div class="profile">
     <section id="wrapper">
         <header id="header">
-            <h1>{{ .Site.Title }}</h1>
+            <h1>{{ .Title }}</h1>
             {{ with .Site.Params.bio }}
             <h2>{{ . | markdownify }}</h2>
             {{ end }}
