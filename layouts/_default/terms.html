@@ -1,0 +1,21 @@
+{{ define "profile" }}
+<div class="profile">
+    <section id="wrapper">
+        <header id="header">
+            <h1>{{ humanize .Data.Plural }}</h1>
+        </header>
+    </section>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<ul id="post-list">
+  {{ $data := .Data }}
+  {{ range $key, $value := .Data.Terms.Alphabetical }}
+  <li>
+  <aside class="dates">{{ $value.Count }}</aside>
+  <a href="{{ printf "%s/%s" $data.Plural $value.Name | urlize | absURL }}"> {{ $value.Name }} </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -54,3 +54,7 @@ disqusShortname = "spf13"
     facebook = "https://www.facebook.com/"
     github   = "https://www.github.com/"
     dribble  = "https://www.dribbble.com/"
+
+# If you remove the taxonomies section, you'll get tags and categories by default
+[taxonomies]
+	tag = "tags"
