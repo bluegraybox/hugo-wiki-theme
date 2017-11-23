@@ -1,5 +1,8 @@
-<a class="twitter" href="https://twitter.com/intent/tweet?text={{ .Permalink }} - {{ .LinkTitle }} {{ with .Site.Params.twitter }}by @{{ . }}{{ end }}"><span class="icon-twitter"> {{ .Site.Params.tweet | default "tweet" }}</span></a>
+{{ if .Site.Params.twitter }}
+<a class="twitter" href="https://twitter.com/intent/tweet?text={{ .Permalink }} - {{ .LinkTitle }} by @{{ .Site.Params.twitter }}"><span class="icon-twitter"> {{ .Site.Params.tweet | default "tweet" }}</span></a>
+{{ end }}
 
+{{ if .Site.Params.facebook }}
 <a class="facebook" href="#" onclick="
     window.open(
       'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
@@ -7,3 +10,4 @@
       'width=626,height=436');
     return false;"><span class="icon-facebook-rect"> {{ .Site.Params.share | default "Share" }}</span>
 </a>
+{{ end }}

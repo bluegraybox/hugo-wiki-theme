@@ -15,6 +15,8 @@ disqusShortname = "spf13"
 	bio = "Blogger & Programmer"
 	# Enter optionally your twitter account
 	twitter = "Your Twitter account"
+	# Enable posting to Facebook
+	facebook = true
 	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
