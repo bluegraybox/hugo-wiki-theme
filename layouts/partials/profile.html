@@ -2,7 +2,9 @@
     <section id="wrapper">
         <header id="header">
             <h1>{{ .Site.Title }}</h1>
-            <h2>{{ .Site.Params.bio | markdownify }}</h2>
+            {{ with .Site.Params.bio }}
+            <h2>{{ . | markdownify }}</h2>
+            {{ end }}
         </header>
     </section>
 </div>
