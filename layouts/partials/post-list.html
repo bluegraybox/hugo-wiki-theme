@@ -1,3 +1,6 @@
+<div id="posts-by-date">
+<div class="date-name-toggle">by date - <a href="#" onclick="$('#posts-by-name').toggle(); $('#posts-by-date').toggle()">by name</a></div>
+
 <ul id="post-list">
     {{ range where .Paginator.Pages "Section" "ne" "" }}
         <li>
@@ -6,3 +9,17 @@
         </li>
     {{ end }}
 </ul>
+</div>
+
+<div id="posts-by-name" style="display: none">
+<div class="date-name-toggle"><a href="#" onclick="$('#posts-by-name').toggle(); $('#posts-by-date').toggle()">by date</a> - by name</div>
+
+<ul id="post-list">
+    {{ range where .Paginator.Pages.ByTitle "Section" "ne" "" }}
+        <li>
+            <a href='{{ .URL }}'><aside class="dates">{{ .Date.Format "Jan 2 2006" }}</aside></a>
+            <a href='{{ .URL }}'>{{ .LinkTitle }}<h2>{{ .Description | markdownify }}</h2></a>
+        </li>
+    {{ end }}
+</ul>
+</div>

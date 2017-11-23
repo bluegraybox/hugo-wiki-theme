@@ -374,6 +374,12 @@ Post List
 	margin-top: 100px;
 }
 
+.date-name-toggle {
+	text-align: center;
+	font: italic 19px/1.3em Georgia,serif;
+	color: #bbb;
+}
+
 #post-list {
 	margin-bottom: 0;
 }
