@@ -232,7 +232,8 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  color: #111;
 }
@@ -674,11 +675,10 @@ article.post aside.toc {
 	float: right;
 	border: 1px solid #5694f1;
 	border-radius: 10px;
-	/* background-color: #eee; */
 }
 article.post aside.toc h2 {
 	border-bottom: 1px solid #ccc;
-	margin-bottom: 0;
+	margin: 0;
 }
 
 
