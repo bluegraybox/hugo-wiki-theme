@@ -669,6 +669,18 @@ code {
 	font-weight: 600;
 }
 
+article.post aside.toc {
+	padding: 0 10px 10px 10px;
+	float: right;
+	border: 1px solid #5694f1;
+	border-radius: 10px;
+	/* background-color: #eee; */
+}
+article.post aside.toc h2 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0;
+}
+
 
 /* Override for printing */
 
