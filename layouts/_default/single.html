@@ -15,11 +15,17 @@
         </h2>
     </header>
     <section id="post-body">
-      {{ if .Params.toc }}
+      {{ if eq .Params.toc "aside" }}
         <aside class="toc">
           <h2>Contents</h2>
           {{ .TableOfContents }}
         </aside>
+      {{ end }}
+      {{ if eq .Params.toc "header" }}
+        <header class="toc">
+          <h2>Contents</h2>
+          {{ .TableOfContents }}
+        </header>
       {{ end }}
       {{ .Content }}
     </section>

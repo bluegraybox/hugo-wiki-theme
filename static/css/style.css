@@ -670,15 +670,22 @@ code {
 	font-weight: 600;
 }
 
-article.post aside.toc {
-	padding: 0 10px 10px 10px;
-	float: right;
+article.post .toc {
 	border: 1px solid #5694f1;
 	border-radius: 10px;
+	padding: 0 10px 0 10px;
+	text-align: left;
 }
-article.post aside.toc h2 {
+article.post .toc h2 {
 	border-bottom: 1px solid #ccc;
 	margin: 0;
+}
+article.post aside.toc {
+	float: right;
+	margin: 0 10px 10px 10px;
+}
+article.post header.toc {
+	margin: 0 0 10px 0;
 }
 
 
