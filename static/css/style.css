@@ -696,21 +696,6 @@ article.post header.toc {
 #post-body p + p {
     text-indent: 2em;
 }
-/* Make first letter of paragraph big and bold... */
-#post-body p:first-letter {
-    font-size: 150%;
-    font-weight: bold;
-}
-/* ...but only for first paragraph */
-#post-body p + p:first-letter {
-    font-size: 100%;
-    font-weight: normal;
-}
-/* NOT YET SUPPORTED
-#post-body p:first-child:first-letter {
-    initial-letter: 1.5 2;
-}
-*/
 
 
 /* Override for printing */
