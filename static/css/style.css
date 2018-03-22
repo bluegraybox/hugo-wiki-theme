@@ -691,6 +691,7 @@ article.post header.toc {
 /* No space between paragraphs */
 #post-body p {
     margin-bottom: 0px;
+    text-align: justify;
 }
 /* Indent text after first paragraph. (p:first-child won't match paragraphs after a heading, hr, etc.) */
 #post-body p + p {
