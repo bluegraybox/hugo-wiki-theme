@@ -702,6 +702,10 @@ article.post header.toc {
 /* Override for printing */
 
 @media print {
+    /* make all text black for monochrome printers */
+    #post-body, #post-body a {
+        color: #000 !important;
+    }
     #wrapper {
       max-width: 100%;
       margin: 0 auto;
@@ -720,7 +724,6 @@ article.post header.toc {
     }
     body {
         font-size: 66%;
-        color: #000;
     }
     .date-name-toggle {
         display: none;
