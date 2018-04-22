@@ -5,7 +5,7 @@
     </head>
 <body>
     {{ partial "nav.html" . }}
-    <section id="wrapper">
+    <section id="wrapper"{{ if .Params.outline }} class="outline"{{ end }}>
         {{ block "profile" . }}{{ end }}
         {{ block "main" . -}}{{- end }}
 
