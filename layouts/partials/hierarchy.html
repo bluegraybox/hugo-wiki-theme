@@ -1,0 +1,4 @@
+{{ with .Parent }}
+{{ if .Parent }} {{ partial "hierarchy.html" . }} {{ end }}
+{{ if . }}&gt; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+{{ end }}
