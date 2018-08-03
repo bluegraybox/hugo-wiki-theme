@@ -396,6 +396,10 @@ Post List
 	margin-bottom: 0;
 }
 
+#post-list.section-list li {
+	border: none;
+}
+
 #post-list li:last-child {
 	border-bottom: 1px solid #eee;
 }
@@ -701,6 +705,9 @@ article.post header.toc {
     text-indent: 2em;
 }
 
+.section-list li a img{
+    display: inline;
+}
 
 /* Override for printing */
 

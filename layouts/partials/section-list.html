@@ -1,0 +1,9 @@
+<div id="sections-by-name">
+    <ul id="post-list" class="section-list">
+        {{ range .Sections }}
+            <li>
+                <a href='{{ .URL }}'><img src="{{ "images/folder.png" | absURL }}"/> {{ .Title }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</div>
