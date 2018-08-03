@@ -713,6 +713,22 @@ div.hierarchy {
     margin: .5em 0 1.1em 1.1em;
 }
 
+.tree a.folder-name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tree ul {
+    margin-left: 0em;
+    padding-left: 1.8em;
+}
+
+.tree ul li {
+    margin: .2em 0 .2em 0;
+    padding-left: 0em;
+    list-style: none;
+}
+
 /* Override for printing */
 
 @media print {
