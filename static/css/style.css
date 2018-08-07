@@ -719,13 +719,18 @@ div.hierarchy {
 }
 
 .tree ul {
-    margin-left: 0em;
-    padding-left: 1.8em;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .tree ul li {
-    margin: .2em 0 .2em 0;
-    padding-left: 0em;
+    margin: 0.2em 0 0.2em 0;
+    padding-left: 0;
+    list-style: none;
+}
+.tree li ul {
+    margin: 0.3em 0 0.2em 1.5em;
+    padding-left: 0;
     list-style: none;
 }
 
