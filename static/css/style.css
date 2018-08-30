@@ -729,7 +729,7 @@ div.hierarchy {
     list-style: none;
 }
 .tree li ul {
-    margin: 0.3em 0 0.2em 1.5em;
+    margin: 0.3em 0 0.2em 24px;
     padding-left: 0;
     list-style: none;
 }
@@ -738,7 +738,9 @@ div.hierarchy {
 
 @media print {
     /* make all text black for monochrome printers */
-    #post-body, #post-body a {
+    a,
+    #post-body,
+    #post-body a {
         color: #000 !important;
     }
     #wrapper {
