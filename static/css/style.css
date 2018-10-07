@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-	font: italic 19px/1.3em Georgia,serif;
+	font: italic 19px Georgia,serif;
 	color: #bbb;
 }
 
@@ -205,7 +205,7 @@ em, i { font-style: italic; }
 
 .description {
 	float: right;
-	font: italic 14px/1.4em Georgia,serif;
+	font: italic 14px Georgia,serif;
 	color: #aaa;
 }
 
@@ -219,7 +219,7 @@ em, i { font-style: italic; }
 }
 
 .home h2 {
-	font: italic 19px/1.3em Georgia,serif;
+	font: italic 19px Georgia,serif;
 	color: #bbb;
 }
 
@@ -232,20 +232,20 @@ em, i { font-style: italic; }
 	margin-top: 20px;
 	margin-bottom: 10px;
 	color: #222;
-	font: 300 32px/1.4em Helvetica, Arial, sans-serif;
+	font: 300 28px Helvetica, Arial, sans-serif;
 }
 
 .post h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
-	  font: 300 24px/1.5 Helvetica, Arial, sans-serif;
+	  font: 300 24px Helvetica, Arial, sans-serif;
 	  color: #111;
 }
 
 
 .post h2.headline {
-	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em Helvetica, Arial, sans-serif;
+	/*font: italic 22px Georgia,serif;*/
+	font: normal 13px Helvetica, Arial, sans-serif;
 	margin: -5px 0 40px 0;
 	color: #b2b9be;
 	  font-size: 13px;
@@ -256,7 +256,7 @@ em, i { font-style: italic; }
 }
 
 #post-list h2 {
-	font: normal 17px/1.5em Helvetica, Arial, sans-serif;
+	font: normal 17px Helvetica, Arial, sans-serif;
 	color: #aaa;
 	max-width: 400px;
 	margin-top: 2px;
@@ -297,10 +297,14 @@ hr {
 	background: #eee;
 }
 
-span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
+span.code {
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color:#EEE;
+	font-size:14px;
+}
 
 pre	{
-	font-family:Menlo, Monaco, Courier;
+	font-family: "Lucida Console", Monaco, monospace;
 	white-space:pre-wrap;
 	/*border: 1px solid #ddd;*/
 	padding:20px;
@@ -309,7 +313,7 @@ pre	{
 	overflow:auto;
 	border-radius: 3px;
 	background: #272b2d;
-	  font-family: 'Source Code Pro',Menlo,monospace;
+	  font-family: "Lucida Console", Monaco, monospace;
 	  font-size: 13px;
 	  line-height: 1.5em;
 	  font-weight: 500;
@@ -381,7 +385,7 @@ Post List
 
 .date-name-toggle {
 	text-align: center;
-	font: italic 19px/1.3em Georgia,serif;
+	font: italic 19px Georgia,serif;
 	color: #bbb;
 }
 
@@ -672,7 +676,7 @@ a.symbol:hover {
 }
 
 code { 
-	font-family:Menlo, Monaco, Courier; 
+	font-family: "Lucida Console", Monaco, monospace;
 	background-color:#EEE; font-size:14px; 
 	padding: 4px; 
 	font-weight: 600;
