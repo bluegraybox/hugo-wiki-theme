@@ -768,9 +768,13 @@ div.hierarchy {
     .post {
         margin: 0px;
     }
-    body {
-        font-size: 66%;
-    }
+    body { font-size:10px; } 
+    .post h1 { font-size: 20px; }
+    .post h2 { font-size: 16px; }
+    .post h3 { font-size: 14px; }
+    .post h4 { font-size: 12px; }
+    .post h5 { font-size: 10px; }
+    .post h6 { font-size: 8px; }
     .date-name-toggle {
         display: none;
     }
