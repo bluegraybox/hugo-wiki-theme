@@ -746,6 +746,10 @@ div.hierarchy {
     list-style: none;
 }
 
+div.index-content {
+    margin: 1em 0 1em 0;
+}
+
 /* Override for printing */
 
 @media print {
