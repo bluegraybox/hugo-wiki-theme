@@ -29,6 +29,10 @@
       {{ end }}
       {{ .Content }}
     </section>
+    <div class="articleStats">
+      {{/* .Lastmod should be .GitInfo.AuthorDate, but that fails if pages aren't committed */}}
+      <em>{{ .WordCount }} words, last modified {{ .Lastmod | dateFormat "2006-01-02 15:04" }}</em>
+    </div>
 
 </article>
 
