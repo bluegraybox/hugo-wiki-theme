@@ -4,6 +4,7 @@
     {{ partial "head.html" . }}
     </head>
 <body>
+    <div class="project-name">{{ .Site.Title }}</div>
     {{ partial "nav.html" . }}
     <section id="wrapper"{{ if .Params.outline }} class="outline"{{ end }}>
         {{ block "profile" . }}{{ end }}

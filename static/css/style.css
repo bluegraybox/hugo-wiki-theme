@@ -750,6 +750,11 @@ div.index-content {
     margin: 1em 0 1em 0;
 }
 
+div.project-name {
+    display: none;
+}
+
+
 /* Override for printing */
 
 @media print {
@@ -768,6 +773,10 @@ div.index-content {
         -moz-column-count: 2;
         -webkit-column-count: 2;
         column-count: 2;
+    }
+    div.project-name {
+        display: block;
+        font-size: 16px;
     }
     nav.main-nav {
         display: none;
